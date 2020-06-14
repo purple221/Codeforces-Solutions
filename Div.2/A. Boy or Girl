@@ -1,0 +1,8 @@
+#include <iostream>
+#include <set>
+std::set<char> s;
+main(){
+    char c;
+    while(std::cin>>c)s.insert(c);
+    std::cout<<(s.size()&1?"IGNORE HIM!":"CHAT WITH HER!");
+}
