@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+long a,b,c,d;
+main()
+{
+	cin>>a>>d;
+	while (cin>>b)
+		a+=(b>d);
+	cout<<a;
+}
