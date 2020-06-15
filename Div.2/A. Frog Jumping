@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+long long a,b,c,d;
+int main()
+{
+cin>>a;
+for (int i=1; i<=a; i++){
+	cin>>b>>c>>d;
+	cout<<(d+1)/2*b-(d/2)*c<<endl;
+}
+return 0;
+}
